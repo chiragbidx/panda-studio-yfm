@@ -38,10 +38,9 @@ export default function Client() {
       <section className="mx-auto flex min-h-[720px] w-full max-w-md items-center justify-center">
         <Card className="w-full border-secondary/70 shadow-xl">
           <CardHeader className="space-y-1">
-            <CardTitle>Forgot password</CardTitle>
+            <CardTitle>Reset Your StreamForge Password</CardTitle>
             <CardDescription>
-              Enter your email and we&apos;ll send you a link to reset your
-              password.
+              We’ll send you a reset link
             </CardDescription>
           </CardHeader>
 
@@ -73,7 +72,7 @@ export default function Client() {
                   </div>
 
                   <Button type="submit" className="w-full" disabled={pending}>
-                    {pending ? "Sending..." : "Send reset link"}
+                    {pending ? "Sending..." : "Send Reset Link"}
                   </Button>
                 </form>
 
